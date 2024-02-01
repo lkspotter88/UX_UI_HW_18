@@ -1,0 +1,180 @@
+/* This is the stylosheet for the portfolio homepage */
+
+/*img {
+    outline: 1px solid orange; 
+}
+*/
+
+/*div {
+   outline: 1px solid red;
+}
+*/
+h1 {
+    font-size:36px;
+    color: white;
+    font-family: "Open Sans",sans-serif;
+}
+
+header {
+    background-size: 100%;
+    background-color: #131354;
+    margin: 0;
+    height: auto;
+    width: 100%; 
+}
+#logo {
+    display: inline-block;
+    position: relative;
+    padding: 7px;
+    width: auto;
+    color: white;
+    font-family:"Open Sans", Arial, sans-serif;
+    word-spacing: 5px;
+}
+
+div#logo img{
+    width: 36px; 
+    height: 36px;  
+}
+
+ ul#topMenu{ 
+    float:right;
+    position: relative;
+    top: -17px;
+    height: 56px;
+ }
+
+
+
+/*.row:after{
+    content:"";
+    display:table;
+    clear:both; 
+}*/
+
+
+p {
+    line-height: 1.6;
+    letter-spacing:1px;
+    font-family:"Lora", serif;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+    margin-left:auto;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    font-family: "Open Sans", Arial, sans-serif;
+    text-align: center;
+    padding: 28px 18px 10px;
+}
+
+li a:hover{
+    color: black;
+    /*background-color:  rgb(135, 235, 235);;*/
+    background-color: #d2fdff;
+}
+
+#heroImg{
+    height:600px;
+    width: 100%;
+    margin: 0;
+    background-image: url(../images/LargeHeroBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#heroContent{
+    display: block;
+    position: relative;
+    top: 50px;
+    margin: 0 auto; 
+    text-align:center;
+    width: 500px;
+    
+}
+#heroContent img{
+    display: inline-block;
+    text-align: center;
+    border-radius: 12px;
+    width: 200px;
+}
+
+button{
+    color: black;
+    /*background-color: rgb(177, 212, 227);*/
+    background-color: #f4946c;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 16px;
+    border-radius: 12px;
+    padding:15px;
+}
+footer{
+    display: inline-block;
+    width:100%;
+    margin:0;
+    background-color: #131354;
+}
+
+footer p{
+    width:100%;
+    text-align: center;
+}
+ 
+#footerNavContainer{
+    display:block;
+    position: relative;
+    width:100%;
+    height: 190px;
+}
+
+footer img{
+    display: inline-block;
+    width:36px;
+    padding: 10px;
+}
+
+#footerLogo{
+    float: left;
+}
+
+#footerLI{
+    float: right;
+}
+#footerNav{
+    float:left;
+   
+    height: 160px;
+    margin: 29px 0 7px 0;
+}
+#footerNav li{
+    float:none;
+}
+
+.footerMenuLink{
+    display: block;
+    color: white;
+    padding:5px;
+    text-align: left;
+}
+
+.footerMenuLink:hover{
+    color: rgb(250, 182, 157);
+    background-color: transparent;
+}
+
+#copyright{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    text-align: center;
+}
