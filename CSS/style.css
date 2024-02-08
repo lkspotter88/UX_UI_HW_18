@@ -185,10 +185,12 @@ button{
 }
 
 .flexContainer div{
-    width: 180px;
+    width: 33%;
+    max-width: 300px;
     height: 300px;
     margin:auto;
     padding:10px;
+    margin:10px;
     outline: solid 1px #a9a6a5;
     border-radius: 12px;
    
@@ -392,7 +394,7 @@ footer img{
         display:grid;
         margin: auto;
         justify-content: center;
-        grid-template-columns: 300px; 
+        grid-template-columns: 1fr; 
         grid-template-areas:"project1Image"
                             "project1Body"
                             "project2Image"
